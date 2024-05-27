@@ -4,7 +4,8 @@
 The objective of this project is to develop a convolutional neural network (CNN) model to detect COVID-19 infections from chest CT scans. This model aims to assist healthcare professionals in quickly and accurately diagnosing COVID-19, thereby facilitating timely treatment and containment efforts.
 
 ## Data Collection
-The dataset used for this project consists of two folders: one containing CT scans of patients diagnosed with COVID-19 and another containing CT scans of patients without COVID-19. The images were collected from publicly available medical repositories and are pre-labeled accordingly.
+The dataset used for this project consists of two folders: one containing CT scans of patients diagnosed with COVID-19 and another containing CT scans of patients without COVID-19. The images were collected from publicly available medical repositories and are pre-labeled accordingly.<br>
+Dataset link: https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset    
 
 ## Data Preprocessing
 The images were loaded and preprocessed by resizing them to a uniform size (224x224 pixels) and normalizing the pixel values to a range of [0, 1]. Data augmentation techniques, such as rotation, translation, zoom, and horizontal flipping, were applied to increase the variability and size of the training dataset, enhancing the model's generalization capabilities.
